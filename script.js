@@ -32,7 +32,7 @@ const locations = [
   {
     name: "store",
     "button text": ["Buy 10 health (10 gold)", "Buy weapon (30 gold)", "Go to town square"],
-    "button functions": [buyWeapon, buyWeapon, goTown],
+    "button functions": [buyHealth, buyWeapon, goTown],
     text: "You enter the store."
   },
   {
@@ -90,7 +90,7 @@ function buyWeapon() {
     gold -= 30;
     currentWeapon++;
     goldText.innerText = gold;
-    
+    let newWeapon = weapons;
     text.innerText = "You now have a new weapon.";
   }
 }
