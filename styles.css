@@ -1,45 +1,94 @@
+:root {
+  --light-grey: #f5f6f7;
+  --dark-blue: #0a0a23;
+  --fcc-blue: #1b1b32;
+  --light-yellow: #fecc4c;
+  --dark-yellow: #feac32;
+  --light-pink: #ffadad;
+  --dark-red: #850000;
+  --light-green: #acd157;
+}
+
 body {
-  background-color: #0a0a23;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  background-color: var(--fcc-blue);
+  color: var(--light-grey);
 }
 
-#text {
-  background-color: #0a0a23;
-  color: #ffffff;
-  padding: 10px;
+h1 {
+  text-align: center;
 }
 
-#game {
-  max-width: 500px;
-  max-height: 400px;
-  background-color: #ffffff;
-  color: #ffffff;
-  margin: 30px auto 0px;
-  padding: 10px;
+.container {
+  width: 90%;
+  max-width: 680px;
 }
 
-#controls,
-#stats {
-  border: 1px solid #0a0a23;
-  padding: 5px;
-  color: #0a0a23;
+h1,
+.container,
+.output {
+  margin: 20px auto;
 }
 
-#monsterStats {
-  display: none;
-  border: 1px solid #0a0a23;
-  padding: 5px;
-  color: #ffffff;
-  background-color: #c70d0d;
+label,
+legend {
+  font-weight: bold;
 }
 
-.stat {
-  padding-right: 10px;
+.input-container {
+  display: flex;
+  flex-direction: column;
 }
 
 button {
+  outline: none;
   cursor: pointer;
-  color: #0a0a23;
-  background-color: #feac32;
-  background-image: linear-gradient(#fecc4c, #ffac33);
-  border: 3px solid #feac32;
+  text-decoration: none;
+  background-color: var(--light-yellow);
+  border: 2px solid var(--dark-yellow);
+}
+
+.clear {
+  background-color: var(--light-pink);
+  color: var(--dark-red);
+  border-color: var(--dark-red);
+}
+
+button,
+input,
+select {
+  min-height: 24px;
+  color: var(--dark-blue);
+}
+
+fieldset,
+label,
+button,
+input,
+select {
+  margin-bottom: 10px;
+}
+
+.output {
+  border: 2px solid var(--light-grey);
+  padding: 10px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.output span {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.surplus {
+  color: var(--light-green);
+}
+
+.deficit {
+  color: var(--light-pink);
 }
