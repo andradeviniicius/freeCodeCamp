@@ -1,1 +1,2 @@
-const calorieCounter = document.getElementById('calorie-counter');
+const currentDateParagraph = document.getElementById("current-date");
+
