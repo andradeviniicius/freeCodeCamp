@@ -1,14 +1,18 @@
 import random
 
 
-num1 = int(input("Choose a number: "))
-numToFind = random.randint(1, 2)
+def guess(x):
+    guess = 0
+    numToFind = random.randint(1, x)
 
-if numToFind == num1:
-    print('Voce acertou')
-else:
-    print('Voce errou')
+    while guess != numToFind:
+        guess = int(input('Escolha um número: '))
+        if guess > numToFind:
+            print('Nossa mas aí ce chutou alto d+')
+        elif guess < numToFind:
+            print('Nossa mas aí ce chutou baixo d+')
+        else:
+            print(f'Boaaaa, o numero era {numToFind}')
 
 
-print(numToFind)
-print(num1)
+guess(10)
