@@ -8,7 +8,9 @@ Welcome to my freeCodeCamp Journey repository! 🚀 Here, I document my progress
 ## Table of Contents
 
 1. [JavaScript Algorithms and Data Structures](#javascript-algorithms-and-data-structures)
+   - **Stacks**: HTML5, CSS3, JavaScript (JS), TypeScript (TS)
 2. [Python for Beginners](#python-for-beginners)
+   - **Stacks**: Python, Java
 
 ## JavaScript Algorithms and Data Structures
 
@@ -58,7 +60,9 @@ Bem-vindo ao repositório da minha Jornada no freeCodeCamp! Aqui, eu documento o
 ## Sumário
 
 1. [Algoritmos e Estruturas de Dados em JavaScript](#algoritmos-e-estruturas-de-dados-em-javascript)
+   - **Stacks**: HTML5, CSS3, JavaScript (JS), TypeScript (TS)
 2. [Python para Iniciantes](#python-para-iniciantes)
+   - **Stacks**: Python, Java
 
 ## Algoritmos e Estruturas de Dados em JavaScript
 
